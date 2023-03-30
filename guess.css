@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Josefin+Sans:wght@300&family=Montserrat:wght@200&family=Playfair+Display&family=Poppins:wght@200&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1bb295;
+    min-height: 100vh;
+}
+
+.container
+{
+    background-color: white;
+    width: 30rem;
+    height: 28rem;
+    border-radius: 1rem;
+}
+
+.container .game_name
+{
+    font-size: 1.563rem;
+    font-weight: 500;
+    padding: 1.25rem 1.563rem;
+    border-bottom: 0.095rem solid #ccc;
+}
+.game_name h2
+{
+  font-weight: 1000;
+  text-align: center;
+}
+.content .inputs
+{
+    margin-top: 1.85rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.content .typinginpt
+{
+    opacity: 0;
+    z-index: -999;
+    position: absolute;
+}
+
+.inputs input
+{
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    margin: 0.3rem;
+    border: 0.063rem solid #ccc;
+    border-radius: 0.3rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #1bb295;
+    text-transform: uppercase;
+}
+
+.details 
+{
+    padding: 1.6rem;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+.reset_btn button
+{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    width: 92%;
+    height: 3rem;
+    border-radius: 0.5rem;
+    background-color: #1bb295;
+    outline: none;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: white;
+}
+
+
+
+
+

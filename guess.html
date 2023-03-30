@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Word Game</title>
+
+    <link rel="stylesheet" href="guess.css">
+</head>
+<body>
+    <div class="container">
+        <div class="game_name"><h2>Guess The Word</h2></div>
+            <div class="content">
+                <input type="text" class="typinginpt" maxlength="1">
+                <div class="inputs">
+                    <input type="text">
+                    <input type="text">
+                    <input type="text">
+                    <input type="text">
+                    <input type="text">
+                    <input type="text">
+                    <input type="text">
+                </div>
+        
+                <div class="details">
+                    <!-- <div>Hint: <span  id="hint">The hint will be shown here</span></div>
+                    <div id="guess_rem">Remaining guesses: <span>10</span></div>
+                    <div id="wrong_words">Wrong Letters: <span>a, b, c, d</span></div> -->
+
+                    <div class="hint">Hint: <span></span></div>
+                    <div class="guess_rem">Remaining Guesses: <span></span></div>
+                    <div class="wrong_ltr">Wrong Letters: <span></span></div>
+                </div>
+
+                <div class="reset_btn">
+                    <button>Reset Game</button>
+                </div>
+            </div>
+    </div>
+
+<!-- javascript -->
+    <script src="./js/word.js"></script>
+    <script src="./js/guess.js"></script>
+
+</body>
+</html>
