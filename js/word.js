@@ -61,11 +61,11 @@ let wordList = [
     },
     {
         word: "hockey",
-        hint: "a famous outdoor game"
+        hint: "national game of India"
     },
     {
         word: "chess",
-        hint: "related to a indoor game"
+        hint: "a game increases an IQ"
     },
     {
         word: "viber",
@@ -141,7 +141,7 @@ let wordList = [
     },
     {
         word: "html",
-        hint: "markup language for the web"
+        hint: "language used for website deigning"
     },
     {
         word: "air",
@@ -169,11 +169,11 @@ let wordList = [
     },
     {
         word: "key",
-        hint: "small piece of metal"
+        hint: "piece of metal inserted in lock"
     },
     {
-        word: "egypt",
-        hint: "a country name"
+        word: "kemet",
+        hint: "old name of egypt"
     },
     {
         word: "joker",
@@ -189,11 +189,11 @@ let wordList = [
     },
     {
         word: "nile",
-        hint: "largest river in the world"
+        hint: "longest river in world"
     },
     {
         word: "rain",
-        hint: "related to a water"
+        hint: "major component of water cycle"
     },
     {
         word: "gfg",
@@ -210,10 +210,6 @@ let wordList = [
     {
         word: "macbeth",
         hint: "famous novel of shakespeare"
-    },
-    {
-        word: "sunscreen",
-        hint: "cosmetic that prevents UV rays"
     },
     {
         word: "cowboy",
@@ -276,6 +272,10 @@ let wordList = [
         hint: "serves as a sweet dish"
     },
     {
+        word: "cricket",
+        hint: "famous game of australia"
+    },
+    {
         word: "farm",
         hint: "an area of land used for grwing crops"
     },
@@ -313,8 +313,7 @@ let wordList = [
     },
     {
         word: "bubble",
-        // hint: "a thin sphere made of soap solution"
-        hint: "a ball of gas that appears in a liquid"
+        hint: "a ball of gas appears in a liquid"
     },
     {
         word: "whistle",
@@ -346,7 +345,7 @@ let wordList = [
     },
     {
         word: "degree",
-        hint: ""
+        hint: "unit of measurement"
     },
     {
         word: "bleach",
@@ -365,11 +364,7 @@ let wordList = [
         hint: "mouth freshner chewing gum"
     },
     {
-        word: "hovercraft",
-        hint: "air cushioned vehicle"
-    },
-    {
         word: "captain",
-        hint: ""
+        hint: "a military leader"
     }
 ]
