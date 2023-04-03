@@ -60,22 +60,13 @@ function initGame(e)
    typinginput.value = "";
 
 
-
-//    function game_conditions()
-//    {
-//     while (max_guesses <= 1)
-//     {
-//         alert("Game Over!, You don't have any remaining guesses.")    
-//     }
-//    }
-
    function game_over_and_win()
    {
-     if(correct_letters == word)
+     if(correct_letters == word.length)
      {
         console.log("congrats!, You found the word")
      }
-     else if(max_guesses <= 1)
+     else if(max_guesses < 1)
      {
         alert("Game Over!, You don't have remaining guesses");
         inputs.querySelectorAll("input")[i].value = word[i];
