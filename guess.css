@@ -13,7 +13,7 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1bb295;
+    background-color: #666699;
     min-height: 100vh;
 }
 
@@ -32,11 +32,13 @@ body
     padding: 1.25rem 1.563rem;
     border-bottom: 0.095rem solid #ccc;
 }
+
 .game_name h2
 {
   font-weight: 1000;
   text-align: center;
 }
+
 .content .inputs
 {
     margin-top: 1.85rem;
@@ -61,12 +63,13 @@ body
     width: 3rem;
     height: 3rem;
     margin: 0.3rem;
-    border: 0.063rem solid #ccc;
+    /* border: 0.063rem solid #ccc; */
+    border: 0.063rem solid #666699;
     border-radius: 0.3rem;
     text-align: center;
     font-size: 2rem;
     font-weight: 800;
-    color: #1bb295;
+    color: #666699; 
     text-transform: uppercase;
 }
 
@@ -81,14 +84,16 @@ body
 .reset_btn button
 {
     display: flex;
-    margin: auto;
+    /* margin: auto; */
+    margin-left: 1rem;
+    margin-top: 1.5rem;
     justify-content: center;
     align-items: center;
     padding: 0.5rem;
     width: 92%;
     height: 3rem;
     border-radius: 0.5rem;
-    background-color: #1bb295;
+    background-color: #666699;
     outline: none;
     border: none;
     font-size: 1.3rem;

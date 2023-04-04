@@ -236,10 +236,6 @@ let wordList = [
         hint: "combination of seven colours"
     },
     {
-        word: "toothpaste",
-        hint: "used for brushing"
-    },
-    {
         word: "fog",
         hint: "cloud of small water droplets"
     },
@@ -281,7 +277,7 @@ let wordList = [
     },
     {
         word: "mexico",
-        hint: "most populous in north america"
+        hint: "most populous city in north america"
     },
     {
         word: "baker",
