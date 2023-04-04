@@ -95,7 +95,22 @@ body
     font-weight: 800;
     color: white;
 }
-
+/* ------------------------ */
+.Alert_box{
+    position: absolute;
+    width:50vw;
+    height: 50vh;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 1px 10px 50px 10px gray;
+    flex-direction: column;
+}
+.display{
+    display: none;
+}
 
 
 

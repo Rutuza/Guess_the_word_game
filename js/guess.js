@@ -68,7 +68,8 @@ function initGame(e)
      }
      else if(max_guesses < 1)
      {
-        alert("Game Over!, You don't have remaining guesses");
+        addclass();
+        
         inputs.querySelectorAll("input")[i].value = word[i];
      }
    }
@@ -79,3 +80,13 @@ resetbtn.addEventListener("click", random_word);
 typinginput.addEventListener("input", initGame);
 document.addEventListener("keydown", () => typinginput.focus());
 
+function removeclass(){
+    var element = document.getElementById("alert");
+     element.classList.add("display");
+     location.reload();
+}
+function addclass(){
+    var element = document.getElementById("alert");
+     element.classList.remove("display");
+     
+}
