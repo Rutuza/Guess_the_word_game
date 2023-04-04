@@ -14,7 +14,6 @@ function random_word()
     max_guesses = 5; 
     correct_letters = [];
     incorrect_letters = [];
-    console.log(word); //prints the word
 
     hint.innerText = ranObj.hint;
     remguess.innerText = max_guesses;
@@ -32,16 +31,18 @@ random_word(); //calling that function
 
 function initGame(e)
 {
-    let key = e.target.value.toLowerCase();
+    let key = e.target.value;
+    word= word.toLowerCase();
+    
     if(key.match(/^[A-Za-z]+$/) && !incorrect_letters.includes(` ${key}`) && !correct_letters.includes(key))
-    {
-        console.log(key)
+    {   
         if(word.includes(key))
-        {
+        {   
             for (let i = 0; i < word.length; i++)
             {
                 //showing matched letter in the input value
-                if(word[i] === key)
+                
+                if(word[i].toLowerCase()==key)
                 {
                     // correct_letters.push(` ${key}`)
                     inputs.querySelectorAll("input")[i].value = key;
@@ -64,7 +65,7 @@ function initGame(e)
    {
      if(correct_letters == word.length)
      {
-        console.log("congrats!, You found the word")
+    //     console.log("congrats!, You found the word")
      }
      else if(max_guesses < 1)
      {
