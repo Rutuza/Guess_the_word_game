@@ -60,10 +60,9 @@ function initGame(e)
     
    typinginput.value = "";
 
-
    function game_over_and_win()
    {
-     if(correct_letters == word.length)
+     if(correct_letters === word.length)
      {
     //     console.log("congrats!, You found the word")
      }
