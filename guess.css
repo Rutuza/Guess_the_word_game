@@ -103,20 +103,35 @@ body
 /* ------------------------ */
 .Alert_box{
     position: absolute;
-    width:50vw;
-    height: 50vh;
+    width:60vw;
+    height: 25vh;
     background-color:white;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 25px;
-    box-shadow: 1px 10px 50px 10px gray;
+    box-shadow: 1px 10px 25px 10px gray;
     flex-direction: column;
 }
 .display{
     display: none;
 }
+.Retry{
+    background-color: #666699;
+    color:white;
+    border-radius:25px;
+    border: none;
+    padding-block: 1rem;
+    padding-inline: 5rem;
+    font-size: 1.5rem;
+    font-weight: 800;
 
-
+}
+.Retry:hover{
+    background-color: #252550; 
+}
+.reset_btn button:hover{
+    background-color: #252550; 
+}
 
 
